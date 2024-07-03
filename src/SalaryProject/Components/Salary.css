@@ -1,0 +1,180 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+.person_main_div {
+  display: flex;
+  flex-direction: column;
+}
+.button_class {
+  border: none;
+  background-color: rgb(160, 160, 160);
+  height: 30px;
+  border-radius: 5px;
+  color: black;
+  font-weight: 600;
+}
+.actions_btn {
+  border: none;
+  width: 60px;
+  padding: 8px;
+  margin-top: 15px;
+  background-color: rgb(2, 10, 29);
+  height: 40px;
+  border-radius: 5px;
+  color: white;
+}
+.formContainer {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 560px;
+  height: 720px;
+  margin-top: 100px;
+  margin-left: 400px;
+  box-shadow: 0 0 10px;
+  background-color: white;
+  border-radius: 5px;
+}
+.form_div {
+  width: 500px;
+  display: table-header-group;
+}
+input[type="text"],
+select {
+  width: 500px;
+  padding: 12px 20px;
+  margin: 8px 0;
+  display: inline-block;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  box-sizing: border-box;
+}
+input[type="text"],
+select,
+label {
+  font-weight: 500;
+}
+.Salary_div {
+  width: 500px;
+  height: 100px;
+  padding: 12px 20px;
+  margin: 8px 0;
+  display: inline-block;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  box-sizing: border-box;
+  font-weight: 500;
+  cursor: pointer;
+}
+input[type="number"],
+select {
+  width: 500px;
+  padding: 12px 20px;
+  margin: 8px 0;
+  display: inline-block;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  box-sizing: border-box;
+}
+input[type="date"],
+select {
+  width: 500px;
+  padding: 12px 20px;
+  margin: 8px 0;
+  display: inline-block;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  box-sizing: border-box;
+}
+input[type="month"],
+select {
+  width: 500px;
+  padding: 12px 20px;
+  margin: 8px 0;
+  display: inline-block;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  box-sizing: border-box;
+}
+.subBtn {
+  border: none;
+  width: 100%;
+  margin-top: 15px;
+  background-color: rgb(2, 10, 29);
+  height: 40px;
+  border-radius: 5px;
+  color: white;
+}
+.personInfoTableContainer {
+  padding: 20px;
+  margin-left: 310px;
+  width: 730px;
+}
+table {
+  font-family: arial, sans-serif;
+  border-collapse: collapse;
+  width: 100%;
+}
+td,
+th {
+  border: 2px solid #dddddd;
+  text-align: left;
+  padding: 8px;
+}
+th {
+  background-color: rgb(2, 10, 29);
+  color: white;
+  text-align: center;
+}
+tr:nth-child(even) {
+  background-color: #dddddd;
+}
+input::-webkit-outer-spin-button,
+input::-webkit-inner-spin-button {
+  -webkit-appearance: none;
+  margin: 0;
+}
+.main {
+  display: flex;
+}
+.Modal {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  right: auto;
+  bottom: auto;
+  margin-right: -50%;
+  transform: translate(-50%, -50%);
+  background: white;
+  padding: 20px;
+  border: 1px solid #ccc;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+  z-index: 1000;
+  width: 560px;
+  height: 280px;
+}
+.Overlay {
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background-color: rgba(0, 0, 0, 0.75);
+  z-index: 999;
+}
+.modalClose_btn {
+  border: none;
+  width: 30px;
+  background-color: white;
+  height: 30px;
+  border-radius: 5px;
+  color: white;
+  text-align: center;
+  cursor: pointer;
+  float: right;
+}
+.Modal_inputs {
+  margin-top: 10px;
+}

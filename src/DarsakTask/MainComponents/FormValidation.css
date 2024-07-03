@@ -1,0 +1,208 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+.navbar {
+  background-color: rgb(2, 10, 29);
+  color: white;
+  height: 70px;
+  width: 100%;
+  position: fixed;
+}
+.sidenav_main_div {
+  width: 100%;
+  max-width: 200px;
+  padding: 12px 14px;
+  height: 100vh;
+  background-color: rgb(160, 160, 160);
+  position: fixed;
+}
+.button_class {
+  border: none;
+  background-color: rgb(160, 160, 160);
+  height: 30px;
+  border-radius: 5px;
+  color: black;
+  font-weight: 600;
+}
+.actions_btn {
+  border: none;
+  width: 60px;
+  padding: 8px;
+  margin-top: 15px;
+  background-color: rgb(2, 10, 29);
+  height: 40px;
+  border-radius: 5px;
+  color: white;
+}
+.icon_btn {
+  display: flex;
+  flex-direction: row;
+  gap: 12px;
+  margin-top: 25px;
+}
+.subBtn {
+  border: none;
+  width: 100%;
+  margin-top: 15px;
+  background-color: rgb(2, 10, 29);
+  height: 40px;
+  border-radius: 5px;
+  color: white;
+}
+.person_main_div {
+  display: flex;
+  flex-direction: column;
+}
+.formContainer {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 560px;
+  height: 690px;
+  margin-top: 100px;
+  margin-left: 490px;
+  box-shadow: 0 0 10px;
+  background-color: white;
+  border-radius: 5px;
+}
+.form_div {
+  width: 500px;
+  display: table-header-group;
+}
+
+.emp_div {
+  display: flex;
+  justify-content: center;
+  width: 590px;
+  height: 650px;
+  margin-top: 100px;
+  margin-left: 490px;
+  box-shadow: 0 0 10px;
+  background-color: white;
+  border-radius: 5px;
+}
+
+.emp_second_div {
+  margin-top: 30px;
+  width: 500px;
+}
+.contactinfo_div {
+  display: flex;
+  justify-content: center;
+  width: 590px;
+  height: 580px;
+  margin-top: 100px;
+  margin-left: 490px;
+  box-shadow: 0 0 10px;
+  background-color: white;
+  border-radius: 5px;
+}
+.contact_second_div {
+  margin-top: 30px;
+  width: 500px;
+}
+input[type="text"],
+select {
+  width: 500px;
+  padding: 12px 20px;
+  margin: 8px 0;
+  display: inline-block;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  box-sizing: border-box;
+}
+input[type="password"],
+select {
+  width: 500px;
+  padding: 12px 20px;
+  margin: 8px 0;
+  display: inline-block;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  box-sizing: border-box;
+}
+input[type="text"],
+select,
+label {
+  font-weight: 500;
+}
+input[type="number"],
+select {
+  width: 500px;
+  padding: 12px 20px;
+  margin: 8px 0;
+  display: inline-block;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  box-sizing: border-box;
+}
+input[type="date"],
+select {
+  width: 500px;
+  padding: 12px 20px;
+  margin: 8px 0;
+  display: inline-block;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  box-sizing: border-box;
+}
+input[type="email"],
+select {
+  width: 500px;
+  padding: 12px 20px;
+  margin: 8px 0;
+  display: inline-block;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  box-sizing: border-box;
+}
+.personInfoTableContainer {
+  padding: 20px;
+  margin-left: 390px;
+  width: 730px;
+}
+.employeeTableContainer {
+  padding: 20px;
+  margin-left: 420px;
+  width: 730px;
+}
+.contactTableContainer {
+  padding: 20px;
+  margin-left: 420px;
+  width: 730px;
+}
+
+table {
+  font-family: arial, sans-serif;
+  border-collapse: collapse;
+  width: 100%;
+}
+
+td,
+th {
+  border: 2px solid #dddddd;
+  text-align: left;
+  padding: 8px;
+}
+th {
+  background-color: rgb(2, 10, 29);
+  color: white;
+  text-align: center;
+}
+
+tr:nth-child(even) {
+  background-color: #dddddd;
+}
+input::-webkit-outer-spin-button,
+input::-webkit-inner-spin-button {
+  -webkit-appearance: none;
+  margin: 0;
+}
+.main {
+  display: flex;
+}
+.sideNavbar_div {
+  margin-top: 70px;
+}

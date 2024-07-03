@@ -1,0 +1,60 @@
+import React from "react";
+import Modal from "react-modal";
+const ModelBox = ({
+  salaryTable,
+  setSalaryTable,
+  handleSubmitSalary,
+  onChangeFuncForModal,
+  salaryDetails,
+}) => {
+  const closeModal = () => {
+    setSalaryTable(false);
+  };
+  return (
+    <div>
+      <div>
+        <Modal
+          isOpen={salaryTable}
+          onRequestClose={closeModal}
+          contentLabel="Example Modal"
+          className="Modal"
+          overlayClassName="Overlay"
+          shouldCloseOnOverlayClick={false}
+        >
+          <div className="modalClose_btn" onClick={closeModal}>
+            <svg
+              xmlns="http://www.w3.org/2000/svg"
+              viewBox="0 0 448 512"
+              height="20px"
+              width="20px"
+            >
+              <path d="M342.6 150.6c12.5-12.5 12.5-32.8 0-45.3s-32.8-12.5-45.3 0L192 210.7 86.6 105.4c-12.5-12.5-32.8-12.5-45.3 0s-12.5 32.8 0 45.3L146.7 256 41.4 361.4c-12.5 12.5-12.5 32.8 0 45.3s32.8 12.5 45.3 0L192 301.3 297.4 406.6c12.5 12.5 32.8 12.5 45.3 0s12.5-32.8 0-45.3L237.3 256 342.6 150.6z" />
+            </svg>
+          </div>
+          <div className="Modal_inputs">
+            <label>Month</label>
+            <input
+              type="month"
+              onChange={onChangeFuncForModal}
+              value={salaryDetails?.Month}
+              name="Month"
+            />
+            <label>Salary</label>
+            <input
+              type="number"
+              placeholder="Add money"
+              onChange={onChangeFuncForModal}
+              value={salaryDetails.Amount}
+              name="Amount"
+            />
+            <button className="subBtn" onClick={handleSubmitSalary}>
+              Submit
+            </button>
+          </div>
+        </Modal>
+      </div>
+    </div>
+  );
+};
+
+export default ModelBox;
